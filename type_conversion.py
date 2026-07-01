@@ -1,0 +1,16 @@
+n1=23
+f1=float(n1)
+print(f1)
+n2=int(f1)
+print(n2)
+n3='56'
+n4=int(n3)
+print(type(n4))
+age=34
+s1=str(age)
+print(type(s1))
+l1=[1,2,3,4,5]
+t1=tuple(l1)
+print(t1)
+s1=set(l1)
+print(s1)
