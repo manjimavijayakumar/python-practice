@@ -1,0 +1,12 @@
+person={
+    'name':'abc',
+    'age':23,
+    'place':'kochi'
+}
+print(person)
+print(person.keys())
+print(person.values())
+person.update({'phone':12345,'email':'abc@gmail.com'})
+print(person)
+print.pop('phone')
+print(person)
